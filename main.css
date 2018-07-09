@@ -1,0 +1,21 @@
+
+
+.nav li{
+  color: black;
+}
+
+a{
+  color: black;
+  margin-left: 5px;
+  font-size: 17px;
+  padding: 5px;
+}
+
+
+.nav-bar ul{
+  display: flex;
+ justify-content: flex-end;
+ text-decoration: none;
+ background-color: #f44242;
+ height: 40px;
+}
