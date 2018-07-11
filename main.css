@@ -1,17 +1,18 @@
 .navigation ul{
-display: flex;
-justify-content: flex-end;
-list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
 }
 
 h1{
   text-align: center;
 }
 .navigation li{
-margin-right: 30px;
-padding: 8px;
-color: black;
-font-family:'Fredoka One' ;
+  margin-right: 30px;
+  padding: 8px;
+  color: black;
+  font-family:'Fredoka One' ;
+  font-size: 18px;
 }
 
 .navigation a:hover{
@@ -30,26 +31,26 @@ font-family:'Fredoka One' ;
   height: 100vh;
   /*width: 100vw;*/
   background-size: cover;
- /* background-position: center top;*/
+  /* background-position: center top;*/
 }
 
 
 .title-landing{
   color:#131011;
   font-size: 105px;
-  opacity: 0.8;
+  /*opacity: 0.7; opacity doesnt show because of animation*/
   font-family: 'Fredoka One';
 }
 
- .banner{
+.banner{
   background-color: #A6C5EB;
   height: 600px;
 }
 
 .two img{
-height: 90vh;
-padding-top: 50px;
-border-radius: 1%;
+  height: 90vh;
+  padding-top: 50px;
+  border-radius: 1%;
 }
 
 .two{
@@ -68,15 +69,39 @@ border-radius: 1%;
   font-size: 55px;
 }
 
- h1{
+h1{
   animation-delay: 1s;
 }
 
 
+.hidden{
+  opacity: 0;
+}
+
+p{
+  animation-delay:1s;
+  }
+
+footer{
+  height: 200px;
+}
+
+footer h2{
+  text-align: center;
+  font-family: 'Fredoka One';
+  font-size: 40px;
+  text-shadow: 1px 1px white;
+}
 
 
 
-
+#call-to-action{
+  margin-left: 500px;
+  background-color:#b73333;
+  border-color: black;
+  font-size: 20px;
+  border-color: black;
+}
 
 
 

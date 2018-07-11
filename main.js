@@ -1,4 +1,59 @@
 
+//FIGURE OUT WHY THIS VERSION OF THE SCROLL FUNCTION ISNT WORKING
+
+// window.addEventListener("scroll", function(){
+//   var scrolling = window.pageYOffset;
+// // scrolling += 1;
+//   var about = document.querySelector("p");
+
+// if(scrolling > 200){
+//   about.classList.add("animated");
+//   about.classList.add("jackInTheBox");
+// }
+
+// });
+
+window.addEventListener("scroll", function(){
+  var scroll = window.pageYOffset;
+
+  var x = document.querySelector("p");
+  console.log(x);
+  // x.classList.add("reveal");
+
+  if(scroll > 500){
+    x.classList.remove("hidden");
+  } else{
+    x.classList.add("hidden");
+  }
+})
+
+var button = document.getElementById("call-to-action");
+
+button.addEventListener("click", function(){
+
+var footer = document.querySelector("footer");
+
+ footer.classList.add(randomColor());
+
+})
+
+
+function randomColor(){
+var x = document.querySelector("footer");
+  var a = Math.floor(Math.random() * 256);
+  var b = Math.floor(Math.random() * 256);
+  var c = Math.floor(Math.random() * 256);
+  var r = `rgb(${a},${b},${c})`;
+  x.style.backgroundColor = r;
+}
+
+
+
+
+
+
+
+
 
 
 

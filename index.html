@@ -4,9 +4,9 @@
   <title></title>
   <link rel="stylesheet" type="text/css" href="main.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
-<link rel="stylesheet"
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+  <link rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
   <!-- or -->
   <link rel="stylesheet"
@@ -14,23 +14,37 @@
 
 </head>
 <body>
-<div class="navigation">
-  <ul>
-    <a href=""><li>Home</li></a>
-    <a href=""><li>About</li></a>
-  </ul>
-  <div class="logo"></div>
+  <!--navigation was built with flexbox -->
+  <div class="navigation">
+    <ul>
+      <a href=""><li>Home</li></a>
+      <a href=""><li>About</li></a>
+    </ul>
 
-  <h1 class="title-landing animated rollIn">Paper.co</h1>
-</div>
+    <!--I need to add a logo -->
+    <div class="logo"> <img src="" alt=""></div>
 
-<div class="banner two">
-<img src="images/did.jpg" alt="">
+    <h1 class="title-landing animated rollIn">Paper.co</h1>
+  </div>
 
-<p>We provide quality from around the world, make writing an experience.</p>
+  <div class="banner two">
+    <img src="images/did.jpg" alt="">
 
+    <p class="animated tada hidden">We provide quality from around the world, make writing an experience.</p>
+  </div>
 
+  <!--bootstrap seemed not to affect the position of the elements on the document -->
+  <footer>
+    <div class="container ">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-6">
+          <h2>Now you can see all of our different paper colors!</h2>
+          <button id="call-to-action" class="btn btn-primary animated infinite pulse">Press</button>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-<script src="main.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>
