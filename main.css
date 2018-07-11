@@ -1,21 +1,83 @@
-
-
-.nav li{
-  color: black;
+.navigation ul{
+display: flex;
+justify-content: flex-end;
+list-style: none;
 }
 
-a{
-  color: black;
-  margin-left: 5px;
-  font-size: 17px;
-  padding: 5px;
+h1{
+  text-align: center;
+}
+.navigation li{
+margin-right: 30px;
+padding: 8px;
+color: black;
+font-family:'Fredoka One' ;
+}
+
+.navigation a:hover{
+  text-decoration: none;
+  opacity: 0.5;
+
+}
+
+.logo div{
+  background-image: url("images/green-logo.png");
+
+}
+
+.navigation{
+  background-image: url("images/cam-adams.jpg");
+  height: 100vh;
+  /*width: 100vw;*/
+  background-size: cover;
+ /* background-position: center top;*/
 }
 
 
-.nav-bar ul{
+.title-landing{
+  color:#131011;
+  font-size: 105px;
+  opacity: 0.8;
+  font-family: 'Fredoka One';
+}
+
+ .banner{
+  background-color: #A6C5EB;
+  height: 600px;
+}
+
+.two img{
+height: 90vh;
+padding-top: 50px;
+border-radius: 1%;
+}
+
+.two{
   display: flex;
- justify-content: flex-end;
- text-decoration: none;
- background-color: #f44242;
- height: 40px;
+  align-items: center;
+
 }
+
+
+
+.two p{
+  margin-left: 100px;
+  font-family: 'Fredoka One';
+  text-shadow: 1px 1px 2px black;
+  color:#F6F2E9;
+  font-size: 55px;
+}
+
+ h1{
+  animation-delay: 1s;
+}
+
+
+
+
+
+
+
+
+
+
