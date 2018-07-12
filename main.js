@@ -21,11 +21,13 @@ window.addEventListener("scroll", function(){
   // x.classList.add("reveal");
 
   if(scroll > 500){
-    x.classList.remove("hidden");
+    x.classList.add("tada");
   } else{
-    x.classList.add("hidden");
+    x.classList.remove("tada");
   }
 })
+
+
 
 var button = document.getElementById("call-to-action");
 
@@ -48,9 +50,18 @@ var x = document.querySelector("footer");
 }
 
 
+function smoothScroll(){
+document.querySelector('#about-banner').scrollIntoView({
+  behavior: 'smooth'
+});
+}
 
+// function scrollWhip(){
+// var banner = document.querySelector("#about-banner");
+// var about = document.getElementById("about-link");
+//    banner.scrollIntoView({behavior: "smooth"})
 
-
+// }
 
 
 

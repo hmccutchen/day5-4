@@ -9,28 +9,30 @@
   <link rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
   <!-- or -->
-  <link rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <!-- <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"> -->
+  <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
 
 </head>
 <body>
   <!--navigation was built with flexbox -->
   <div class="navigation">
+    <i class="fas fa-paperclip fa-2x animated flip"></i>
     <ul>
       <a href=""><li>Home</li></a>
-      <a href=""><li>About</li></a>
+      <button onclick="smoothScroll()"><li>About</li></button>
     </ul>
 
-    <!--I need to add a logo -->
-    <div class="logo"> <img src="" alt=""></div>
-
-    <h1 class="title-landing animated rollIn">Paper.co</h1>
+    <h1 class="title-landing animated fadeInDown">Paper.co</h1>
+      <h3 class= "sub-text">Paper from the nature!</h3>
   </div>
 
-  <div class="banner two">
-    <img src="images/did.jpg" alt="">
+  <div id="about-banner" class="banner two">
 
-    <p class="animated tada hidden">We provide quality from around the world, make writing an experience.</p>
+    <p class="animated ">We provide quality from around the world, make writing an experience.</p>
+
+    <img src="images/tree.png" alt="">
   </div>
 
   <!--bootstrap seemed not to affect the position of the elements on the document -->
@@ -39,11 +41,18 @@
       <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-6">
           <h2>Now you can see all of our different paper colors!</h2>
-          <button id="call-to-action" class="btn btn-primary animated infinite pulse">Press</button>
+          <button id="call-to-action" class="btn btn-primary animated infinite pulse ">Press</button>
         </div>
       </div>
     </div>
+
+    <div class="footer-icons">
+  <i class="fas fa-meh-rolling-eyes fa-2x"></i>
+  <i class="fab fa-facebook-square fa-2x"></i>
+  <i class="fas fa-paperclip fa-2x"></i>
+</div>
   </footer>
+
 
   <script src="main.js"></script>
 </body>

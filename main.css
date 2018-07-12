@@ -4,8 +4,19 @@
   list-style: none;
 }
 
-h1{
+h1 {
   text-align: center;
+}
+
+h3{
+  text-align: center;
+ font-family: 'Fredoka', cursive;
+}
+
+.sub-text{
+  font-family: 'Righteous', cursive;
+  font-size: 26px;
+
 }
 .navigation li{
   margin-right: 30px;
@@ -21,10 +32,12 @@ h1{
 
 }
 
-.logo div{
+/*.logo div{
   background-image: url("images/green-logo.png");
 
 }
+*/
+
 
 .navigation{
   background-image: url("images/cam-adams.jpg");
@@ -32,6 +45,8 @@ h1{
   /*width: 100vw;*/
   background-size: cover;
   /* background-position: center top;*/
+
+;
 }
 
 
@@ -40,17 +55,26 @@ h1{
   font-size: 105px;
   /*opacity: 0.7; opacity doesnt show because of animation*/
   font-family: 'Fredoka One';
+  text-shadow: 1px 1px #f4f7ef;
 }
 
 .banner{
   background-color: #A6C5EB;
-  height: 600px;
+  height: 800px;
+  border: 1px solid black;
 }
 
+#about-banner{
+  box-shadow: 10px 3px 8px #888888;
+
+}
 .two img{
   height: 90vh;
   padding-top: 50px;
-  border-radius: 1%;
+  /*border-radius: 1%;*/
+  width: 65vw;
+
+
 }
 
 .two{
@@ -70,7 +94,7 @@ h1{
 }
 
 h1{
-  animation-delay: 1s;
+  animation-delay: 0.7s;
 }
 
 
@@ -82,26 +106,61 @@ p{
   animation-delay:1s;
   }
 
+i{
+  animation-delay:2s;
+  padding-top: 5px;
+  padding-left: 10px;
+  opacity: 0.4;
+}
+
+i:hover{
+  opacity: 1;
+}
+
+.footer-icons{
+  margin-top: 285px;
+}
+
+ .footer-icons{
+  cursor: pointer;
+}
+
 footer{
-  height: 200px;
+  height: 500px;
+
 }
 
 footer h2{
   text-align: center;
   font-family: 'Fredoka One';
   font-size: 40px;
-  text-shadow: 1px 1px white;
+  text-shadow: 1px 1px #f4f7ef;
+}
+
+button{
+  border: none;
+  background: none;
+  outline: inherit;
+}
+
+button:hover{
+  opacity: 0.5;
 }
 
 
 
 #call-to-action{
-  margin-left: 500px;
+  margin-left: 528px;
+  margin-top: 50px;
   background-color:#b73333;
+  padding: 10px;
   border-color: black;
   font-size: 20px;
   border-color: black;
+  box-shadow: 2px 2px #8888;
+  outline: inherit;
 }
+
 
 
 
